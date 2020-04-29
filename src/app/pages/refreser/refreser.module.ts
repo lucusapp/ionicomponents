@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ProgessBarPageRoutingModule } from './progess-bar-routing.module';
+import { RefreserPageRoutingModule } from './refreser-routing.module';
 
-import { ProgessBarPage } from './progess-bar.page';
+import { RefreserPage } from './refreser.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ProgessBarPageRoutingModule,
+    RefreserPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [ProgessBarPage]
+  declarations: [RefreserPage]
 })
-export class ProgessBarPageModule {}
+export class RefreserPageModule {}

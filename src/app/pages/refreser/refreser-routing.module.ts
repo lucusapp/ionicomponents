@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ProgessBarPage } from './progess-bar.page';
+import { RefreserPage } from './refreser.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 const routes: Routes = [
   {
     path: '',
-    component: ProgessBarPage
+    component: RefreserPage
   }
 ];
 
@@ -16,4 +16,4 @@ const routes: Routes = [
     RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class ProgessBarPageRoutingModule {}
+export class RefreserPageRoutingModule {}

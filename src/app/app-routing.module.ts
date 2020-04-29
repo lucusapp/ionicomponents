@@ -16,6 +16,14 @@ const routes: Routes = [
   {path: 'modal',loadChildren: () => import('./pages/modal/modal.module').then( m => m.ModalPageModule)},
   {path: 'popover',loadChildren: () => import('./pages/popover/popover.module').then( m => m.PopoverPageModule)},
   {path: 'progess-bar',loadChildren: () => import('./pages/progess-bar/progess-bar.module').then( m => m.ProgessBarPageModule)},
+  {
+    path: 'refreser',
+    loadChildren: () => import('./pages/refreser/refreser.module').then( m => m.RefreserPageModule)
+  },
+  {
+    path: 'searchbar',
+    loadChildren: () => import('./pages/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
+  },
 ];
 
 @NgModule({
